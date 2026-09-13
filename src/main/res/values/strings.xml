@@ -1,0 +1,132 @@
+<resources>
+    <!-- App Details -->
+    <string name="app_name">FocusFlow AI</string>
+    <string name="app_tagline">Your day as a flow, not a list</string>
+    <string name="neural_core_version">FocusFlow AI • v1.0 Neural Core</string>
+
+    <!-- Navigation -->
+    <string name="nav_flow">Flow</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_ai_plan">AI Plan</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_insights">Insights</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_connecting_db">CONNECTING SQLite ROOM PERSISTENCE...</string>
+    <string name="splash_syncing_ai">SYNCHRONIZING GEMINI AI MATRIX...</string>
+    <string name="splash_ready">READY FOR DEEP WORK</string>
+
+    <!-- Authentication -->
+    <string name="login_welcome">Welcome to FocusFlow</string>
+    <string name="login_subtitle">Your smart daily flow &amp; cognitive focus matrix</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Security Key / Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="name_hint">Your Name</string>
+    <string name="btn_authenticate_flow">Authenticate &amp; Flow</string>
+    <string name="btn_quick_demo">Quick Demo / Instant Access</string>
+    <string name="btn_create_account">Create Account &amp; Flow</string>
+    <string name="signup_title">Initialize Profile</string>
+    <string name="signup_subtitle">Connect your workflow to the FocusFlow Neural Matrix</string>
+    <string name="prompt_new_operator">New operator to FocusFlow? </string>
+    <string name="action_initialize_account">Initialize Account</string>
+    <string name="prompt_existing_operator">Existing operator? </string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="error_fill_fields">Please enter both email and password</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_prefix">Hello, </string>
+    <string name="metric_streak">STREAK</string>
+    <string name="metric_goal">GOAL</string>
+    <string name="metric_focus">FOCUS</string>
+    <string name="flow_matrix_title">Flow Matrix</string>
+    <string name="flow_matrix_synchronized">SYNCHRONIZED</string>
+    <string name="flow_matrix_clear_title">Flow Matrix Clear 🎉</string>
+    <string name="flow_matrix_clear_desc">All tasks completed. Add new targets or review insights.</string>
+    <string name="ai_verdict_title">FocusFlow AI Verdict</string>
+    <string name="ai_optimized_badge">AI OPTIMIZED</string>
+    <string name="quick_focus_title">Quick Focus Protocol</string>
+    <string name="quick_focus_subtitle">25m Deep Work • 5m Recovery</string>
+    <string name="btn_engage">ENGAGE</string>
+    <string name="priority_tasks_today">Priority Tasks Today</string>
+    <string name="view_all">View All</string>
+
+    <!-- Tasks Screen -->
+    <string name="task_matrix_title">Task Matrix</string>
+    <string name="task_matrix_subtitle">Organize and optimize your cognitive daily targets</string>
+    <string name="btn_new_target">+ New Target</string>
+    <string name="task_matrix_clear_title">Task Matrix Clear</string>
+    <string name="task_matrix_clear_desc">Zero targets in this category. Tap below to initialize a task with AI breakdown.</string>
+    <string name="btn_initialize_target">+ Initialize Target</string>
+    <string name="filter_all">All</string>
+    <string name="filter_academic">Academic</string>
+    <string name="filter_work">Work</string>
+    <string name="filter_personal">Personal</string>
+    <string name="filter_health">Health</string>
+
+    <!-- Add Task Dialog -->
+    <string name="dialog_task_objective">Task Objective</string>
+    <string name="dialog_notes_optional">Description &amp; Notes (Optional)</string>
+    <string name="btn_ask_ai_estimate">Ask AI to Estimate &amp; Break Down</string>
+    <string name="label_category">Category</string>
+    <string name="label_priority">Priority</string>
+    <string name="priority_high">HIGH</string>
+    <string name="priority_medium">MEDIUM</string>
+    <string name="priority_low">LOW</string>
+    <string name="label_estimated_duration">Estimated Duration</string>
+    <string name="label_target_deadline">Target Deadline</string>
+    <string name="deadline_today">Today</string>
+    <string name="deadline_tomorrow">Tomorrow</string>
+    <string name="deadline_this_week">This Week</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save_to_matrix">Save to Matrix</string>
+
+    <!-- Focus Timer Screen -->
+    <string name="neural_focus_title">Neural Focus Mode</string>
+    <string name="neural_focus_subtitle">Deep flow state engaged • Minimize distraction</string>
+    <string name="active_target_objective">ACTIVE TARGET OBJECTIVE:</string>
+    <string name="deep_flow_active">DEEP FLOW ACTIVE</string>
+    <string name="mode_deep_focus">Deep Focus (25m)</string>
+    <string name="mode_recovery">Recovery (5m)</string>
+
+    <!-- AI Planner Screen -->
+    <string name="ai_planner_title">AI Schedule Matrix</string>
+    <string name="ai_planner_subtitle">Dynamic neural scheduling: balances deep focus and cognitive recovery</string>
+    <string name="smart_flow_engine">Smart Flow Engine</string>
+    <string name="btn_recalibrate">Re-Calibrate</string>
+    <string name="ai_neural_verdict_label">AI NEURAL VERDICT:</string>
+    <string name="chronological_flow_sequence">Chronological Flow Sequence</string>
+
+    <!-- Profile & Settings Screen -->
+    <string name="profile_title">Account Profile &amp; Settings</string>
+    <string name="profile_subtitle">Personal preferences saved securely in local storage</string>
+    <string name="badge_verified_account">VERIFIED ACCOUNT</string>
+    <string name="badge_db_online">DATABASE: ONLINE</string>
+    <string name="flow_parameters_title">Flow Parameters (SQLite Persisted)</string>
+    <string name="label_daily_task_goal">Daily Task Target</string>
+    <string name="label_default_focus_duration">Default Focus Duration</string>
+    <string name="label_smart_flow_alerts">Smart Flow Alerts</string>
+    <string name="desc_smart_flow_alerts">Realtime deadline and recovery triggers</string>
+    <string name="telemetry_card_title">Productivity Telemetry</string>
+    <string name="telemetry_card_desc">Flow analytics, Gemini AI key &amp; streak</string>
+    <string name="local_storage_title">Local Storage &amp; Data Privacy</string>
+    <string name="local_storage_item1">• All tasks and focus metrics are stored securely on this device</string>
+    <string name="local_storage_item2">• 100% Offline Capable: Instant sync with zero internet latency</string>
+    <string name="local_storage_item3">• Database Engine: High-performance SQLite via Android Room</string>
+    <string name="btn_sign_out">Sign Out</string>
+
+    <!-- Insights / Telemetry Screen -->
+    <string name="telemetry_screen_title">Productivity Telemetry</string>
+    <string name="telemetry_screen_subtitle">Realtime cognitive metrics and persistent SQLite analytics</string>
+    <string name="metric_focus_hours">Focus Hours</string>
+    <string name="metric_done_targets">Done Targets</string>
+    <string name="metric_flow_rate">Flow Rate</string>
+    <string name="recent_focus_sessions_title">Recent Focus Sessions (Room DB)</string>
+    <string name="no_sessions_yet">No completed focus sessions yet. Engage a 25m Pomodoro to log data!</string>
+    <string name="gemini_card_title">Google Gemini AI Core</string>
+    <string name="gemini_card_desc">Built-in intelligent neural engine active. Enter a custom Gemini API key for live cloud inference:</string>
+    <string name="gemini_api_key_placeholder">Paste Google Gemini API Key (Optional)</string>
+    <string name="btn_save_key">Save Key</string>
+</resources>
